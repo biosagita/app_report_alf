@@ -8,6 +8,7 @@
 <body>
     <div id="page-wrapper">
         <div class="pad25A">
+        <?php $this->load->view('login_user');?>
             <div class="panel">
                 <div class="panel-body">
                     <div class="row">

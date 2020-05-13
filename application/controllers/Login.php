@@ -14,7 +14,6 @@ class Login extends CI_Controller
     public function index()
     {
         if ($this->session->userdata('is_login') == true) {
-            echo "login";
             redirect('report', 'refresh');
         }
         $data = array('warning' => '');
